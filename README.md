@@ -1,4 +1,4 @@
-# Tour Of Heroes
+# Hot Stuff Corporation 
 
 Done with Hugo react and netlify express function api backed by LowDB for CRUD.
 
