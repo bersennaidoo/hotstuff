@@ -1,0 +1,39 @@
+// Main brand color
+$primary: blue;
+// Shadows
+$enable-shadows: true;
+// Spacer
+$spacer: 1.5rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 2,
+  5: $spacer * 4,
+);
+// Border radius
+$border-radius: 0.5rem;
+$border-radius-sm: 0.25rem;
+$border-radius-lg: 0.75rem;
+// Inputs and buttons
+$input-btn-padding-y: .5rem;
+$input-btn-padding-x: 1em;
+// Carousel
+$carousel-control-icon-width: 4rem;
+$carousel-indicator-height: 10px;
+$carousel-indicator-spacer: 10px;
+// Dropdown
+$dropdown-min-width: 0;
+// Modal
+$modal-lg: 900px;
+$modal-backdrop-opacity: .75;
+$modal-fade-transform: rotate(5deg) scale(.9);
+// Navs
+$nav-link-padding-y: 1rem;
+// Progress
+$progress-height: 2rem;
+$progress-bar-animation-timing: .5s linear infinite;
+$progress-bar-transition: width .4s ease;
+// Spinner
+$spinner-animation-speed: 1s;
