@@ -1,0 +1,43 @@
+<header id="site-header" class="site-header" data-cy="site-header">
+    <nav id="site-nav" class="navbar navbar-light bg-light navbar-expand-lg site-header__nav" data-cy="site-nav">
+      <div id="site-container" class="container site-header__nav__container" data-cy="site-container">
+        <a href="/" class="navbar-brand">888</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mb-2 mb-lg-0" id="navbar">
+          <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+            <li class="nav-item">
+              <a href="/shop" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <form class="mb-3 mb-lg-0 me-lg-2">
+            <div class="input-group">
+              <input type="search" class="form-control" placeholder="Search text here" aria-label="Search products here">
+              <button type="submit" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+            </div>
+          </form>
+          <div class="dropdown d-inline-block me-2">
+            <button type="button" class="btn btn-secondary dropdown-toggle" id="currencyDropdown" data-bs-toggle="dropdown" aria-expanded="false">USD $</button>
+            <div class="dropdown-menu" aria-labelledby="currencyDropdown">
+              <button type="button" class="dropdown-item">EUR €</button>
+              <button type="button" class="dropdown-item">ZAR R</button>
+            </div>
+          </div>
+          <a href="/wishlist" class="btn btn-secondary me-2">
+            <i class="bi-heart"></i>
+          </a>
+          <a href="/cart" class="btn btn-primary">
+            <i class="bi-cart"></i>
+            (0)
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
