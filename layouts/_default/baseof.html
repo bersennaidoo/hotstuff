@@ -4,6 +4,7 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+    {{ partial "toast-container/toast-container.html" . }}
     {{ partial "navbar/navbar.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer/footer.html" . }}
